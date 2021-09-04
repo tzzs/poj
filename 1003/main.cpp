@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
-    int count = 0;
+    int count;
     float n;
     while (true) {
         cin >> n;
+        count = 0;
         if (n == 0.00) {
             break;
         } else {
